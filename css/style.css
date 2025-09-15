@@ -199,7 +199,7 @@ ol {
 
 .bg-magenta,
 .price-item .price-btn:hover{
-	background-color: #d22651;
+	background-color: #249a43;
 }
 
 .bg-blue, .newslatter-inner .ni-form button,
@@ -219,7 +219,7 @@ ol {
 	/* background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
 	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
 	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%); */
-	background-color: #d22651;
+	background-color: #249a43;
 }
 
 .yellow-btn{
