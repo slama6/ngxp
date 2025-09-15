@@ -1,0 +1,11 @@
+# Enable rewriting
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Force HTTPS and www (change domain if needed)
+RewriteCond %{HTTP_HOST} !^www\. [OR]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Default file
+DirectoryIndex index.html
