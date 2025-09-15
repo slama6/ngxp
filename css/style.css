@@ -327,7 +327,7 @@ ol {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	background-color: hsl(0, 0%, 98%);
+	background-color: hsl(0deg 0% 10.38%);
 	position: fixed;
 	width: 100vw;
 	z-index: 999;
@@ -339,10 +339,45 @@ ol {
 	border-bottom: 1px solid #e5e5e5;
 }
 
+.hero-section .hero-logo {
+    border: 2px solid #f5921e;
+    transition: border-color .3s, box-shadow .3s;
+}
+
+.hero-section .hero-logo:hover {
+    border-color: #202020a9;
+    box-shadow: 0 0 20px rgba(77, 42, 13, 0.55);
+}
+
+.hero-section {
+    min-height: 90vh;
+    padding-top: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section > .container {
+    margin-top: 0 !important;
+}
+
+.hero-section .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centers the 5+2+5 layout block */
+    gap: 0;
+}
+
+
 .logo {
 	float: left;
-	padding-top: 25px;
-	padding-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 32px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    min-height: 110px;
 }
 
 .logo a {
@@ -452,9 +487,9 @@ ol {
   Hero
 -----------------------*/
 
-.hero-section {
+/* .hero-section {
 	padding-top: 60vh;
-}
+} */
 
 .hero-text-header{
 	font-size: 35px;
@@ -466,7 +501,7 @@ ol {
 }
 
 .hero-section .hero-text {
-	padding-top: 184px;
+	/* padding-top: 184px; */
 }
 
 .hero-section .hero-text span {
@@ -477,8 +512,8 @@ ol {
 }
 
 .hero-section .hero-text h2 {
-	font-size: 60px;
-	color: #4a9bd1;
+	font-size: 50px;
+	color: #ffffff;
 	-webkit-text-stroke: 2px black;
 	line-height: 72px;
 	font-weight: 800;
